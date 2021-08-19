@@ -272,11 +272,11 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
-.mobile-nav-toggle {
+.mobile-nav {
   padding: 0;
 }
 
-.mobile-nav-toggle ul {
+.mobile-nav ul {
   margin: 0;
   padding: 0;
   display: flex;
@@ -284,11 +284,11 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
 }
 
-.mobile-nav-toggle li {
+.mobile-nav li {
   position: relative;
 }
 
-.mobile-nav-toggle a, .mobile-nav-toggle a:focus {
+.mobile-nav a, .mobile-nav a:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -300,17 +300,17 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 
-.mobile-nav-toggle a i, .mobile-nav-toggle a:focus i {
+.mobile-nav a i, .mobile-nav a:focus i {
   font-size: 12px;
   line-height: 0;
   margin-left: 5px;
 }
 
-.mobile-nav-toggle a:hover, .mobile-nav-toggle .active, .mobile-nav-toggle .active:focus, .mobile-nav-toggle li:hover > a {
+.mobile-nav a:hover, .mobile-nav .active, .mobile-nav .active:focus, .mobile-nav li:hover > a {
   color: #47b2e4;
 }
 
-.mobile-nav-toggle .getstarted {
+.mobile-nav .getstarted {
   padding: 8px 20px;
   margin-left: 30px;
   border-radius: 50px;
@@ -320,12 +320,12 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
 }
 
-.mobile-nav-toggle .getstarted:hover {
+.mobile-nav .getstarted:hover {
   color: #fff;
   background: #31a9e1;
 }
 
-.mobile-nav-toggle .dropdown ul {
+.mobile-nav .dropdown ul {
   display: block;
   position: absolute;
   left: 14px;
@@ -341,11 +341,11 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 4px;
 }
 
-.mobile-nav-toggle .dropdown ul li {
+.mobile-nav .dropdown ul li {
   min-width: 200px;
 }
 
-.mobile-nav-toggle .dropdown ul a {
+.mobile-nav .dropdown ul a {
   padding: 10px 20px;
   font-size: 14px;
   text-transform: none;
@@ -353,27 +353,27 @@ h1, h2, h3, h4, h5, h6 {
   color: #0c3c53;
 }
 
-.mobile-nav-toggle .dropdown ul a i {
+.mobile-nav .dropdown ul a i {
   font-size: 12px;
 }
 
-.mobile-nav-toggle .dropdown ul a:hover, .mobile-nav-toggle .dropdown ul .active:hover, .mobile-nav-toggle .dropdown ul li:hover > a {
+.mobile-nav .dropdown ul a:hover, .mobile-nav .dropdown ul .active:hover, .mobile-nav .dropdown ul li:hover > a {
   color: #47b2e4;
 }
 
-.mobile-nav-toggle .dropdown:hover > ul {
+.mobile-nav .dropdown:hover > ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
 }
 
-.mobile-nav-toggle .dropdown .dropdown ul {
+.mobile-nav .dropdown .dropdown ul {
   top: 0;
   left: calc(100% - 30px);
   visibility: hidden;
 }
 
-.mobile-nav-toggle .dropdown .dropdown:hover > ul {
+.mobile-nav .dropdown .dropdown:hover > ul {
   opacity: 1;
   top: 0;
   left: 100%;
@@ -381,10 +381,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 1366px) {
-  .mobile-nav-toggle .dropdown .dropdown ul {
+  .mobile-nav .dropdown .dropdown ul {
     left: -90%;
   }
-  .mobile-nav-toggle .dropdown .dropdown:hover > ul {
+  .mobile-nav .dropdown .dropdown:hover > ul {
     left: -100%;
   }
 }
@@ -392,7 +392,7 @@ h1, h2, h3, h4, h5, h6 {
 /**
 * Mobile Navigation 
 */
-/* .mobile-nav-toggle {
+/* .mobile-nav {
   color: #fff;
   font-size: 28px;
   cursor: pointer;
@@ -401,12 +401,12 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
 }
 
-.mobile-nav-toggle.bi-x {
+.mobile-nav.bi-x {
   color: #fff;
 }
 
 @media (max-width: 1366px) {
-  .mobile-nav-toggle {
+  .mobile-nav {
     display: block;
   }
   .navbar ul {
@@ -426,7 +426,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 999;
 }
 
-.navbar-mobile .mobile-nav-toggle {
+.navbar-mobile .mobile-nav {
   position: absolute;
   top: 15px;
   right: 15px;
