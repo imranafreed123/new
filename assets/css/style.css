@@ -254,14 +254,6 @@ h1, h2, h3, h4, h5, h6 {
   visibility: visible;
 }
 
-@media (max-width: 1366px) {
-  .navbar .dropdown .dropdown ul {
-    left: -90%;
-  }
-  .navbar .dropdown .dropdown:hover > ul {
-    left: -100%;
-  }
-}
 
 
 
@@ -566,57 +558,6 @@ h1, h2, h3, h4, h5, h6 {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
-@media (max-width: 991px) {
-  #hero {
-    height: 100vh;
-    text-align: center;
-  }
-  #hero .animated {
-    -webkit-animation: none;
-    animation: none;
-  }
-}
-
-@media (max-width: 768px) {
-  #hero h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-  #hero h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
-  }
-}
-
-@media (max-width: 575px) {
-  #hero .btn-get-started {
-    font-size: 16px;
-    padding: 10px 24px 11px 24px;
-  }
-}
-
-@-webkit-keyframes up-down {
-  0% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(-10px);
-  }
-}
-
-@keyframes up-down {
-  0% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(-10px);
-  }
-}
-
-
-
-
 
 
 
@@ -655,58 +596,6 @@ h1, h2, h3, h4, h5, h6 {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
-@media (max-width: 991px) {
-  #team-banner {
-    height: 100vh;
-    text-align: center;
-  }
-  #team-banner .animated {
-    -webkit-animation: none;
-    animation: none;
-  }
-}
-
-@media (max-width: 768px) {
-  #team-banner h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-  #team-banner h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
-  }
-}
-
-@media (max-width: 575px) {
-  #team-banner .btn-get-started {
-    font-size: 16px;
-    padding: 10px 24px 11px 24px;
-  }
-}
-
-@-webkit-keyframes up-down {
-  0% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(-10px);
-  }
-}
-
-@keyframes up-down {
-  0% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(-10px);
-  }
-}
-
-
-
-
-
 
 
 /*--------------------------------------------------------------
@@ -741,53 +630,7 @@ h1, h2, h3, h4, h5, h6 {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
-@media (max-width: 991px) {
-  #car-banner {
-    height: 100vh;
-    text-align: center;
-  }
-  #car-banner .animated {
-    -webkit-animation: none;
-    animation: none;
-  }
-}
 
-@media (max-width: 768px) {
-  #car-banner h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-  #car-banner h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
-  }
-}
-
-@media (max-width: 575px) {
-  #car-banner .btn-get-started {
-    font-size: 16px;
-    padding: 10px 24px 11px 24px;
-  }
-}
-
-@-webkit-keyframes up-down {
-  0% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(-10px);
-  }
-}
-
-@keyframes up-down {
-  0% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(-10px);
-  }
-}
 
 
 
@@ -864,66 +707,6 @@ h1, h2, h3, h4, h5, h6 {
 #sponsor-header .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
-
-@media (max-width: 991px) {
-  #sponsor-header {
-    height: 100vh;
-    text-align: center;
-  }
-  #sponsor-header .animated {
-    -webkit-animation: none;
-    animation: none;
-  }
-}
-
-@media (max-width: 768px) {
-  #sponsor-header h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-  #sponsor-header h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
-  }
-}
-
-@media (max-width: 575px) {
-  #sponsor-header .btn-get-started {
-    font-size: 16px;
-    padding: 10px 24px 11px 24px;
-  }
-}
-
-@-webkit-keyframes up-down {
-  0% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(-10px);
-  }
-}
-
-@keyframes up-down {
-  0% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(-10px);
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1064,19 +847,6 @@ section {
 .section-title-fs p {
   margin-bottom: 0;
 }
-
-
-
-
-
-
-
-@media (max-width: 768px) {
-  .cliens img {
-    max-width: 40%;
-  }
-}
-
 
 
 
@@ -1366,30 +1136,6 @@ section {
   display: none;
 }
 
-@media (max-width: 1024px) {
-  .why-us .content, .why-us .accordion-list {
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
-
-@media (max-width: 992px) {
-  .why-us .img {
-    min-height: 400px;
-  }
-  .why-us .content {
-    padding-top: 30px;
-  }
-  .why-us .accordion-list {
-    padding-bottom: 30px;
-  }
-}
-
-@media (max-width: 575px) {
-  .why-us .img {
-    min-height: 200px;
-  }
-}
 
 /*--------------------------------------------------------------
 # Skills
@@ -1937,19 +1683,7 @@ comp {
   border: 2px solid #47b2e4;
 }
 
-@media (max-width: 1024px) {
-  .cta {
-    background-attachment: scroll;
-  }
-}
 
-@media (min-width: 769px) {
-  .cta .cta-btn-container {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-  }
-}
 
 /*--------------------------------------------------------------
 # Portfolio
@@ -2364,26 +2098,6 @@ comp {
   background: #23a3df;
 }
 
-@media (max-width: 992px) {
-  .pricing .box {
-    max-width: 60%;
-    margin: 0 auto 30px auto;
-  }
-}
-
-@media (max-width: 767px) {
-  .pricing .box {
-    max-width: 80%;
-    margin: 0 auto 30px auto;
-  }
-}
-
-@media (max-width: 420px) {
-  .pricing .box {
-    max-width: 100%;
-    margin: 0 auto 30px auto;
-  }
-}
 
 /*--------------------------------------------------------------
 # Frequently Asked Questions
@@ -2461,11 +2175,7 @@ comp {
   display: none;
 }
 
-@media (max-width: 1200px) {
-  .faq .faq-list {
-    padding: 0;
-  }
-}
+
 
 /*--------------------------------------------------------------
 # Contact
@@ -2710,11 +2420,6 @@ comp {
   margin-top: 72px;
 }
 
-@media (max-width: 992px) {
-  .breadcrumbs {
-    margin-top: 68px;
-  }
-}
 
 .breadcrumbs h2 {
   font-size: 28px;
@@ -2952,18 +2657,4 @@ comp {
 
 #footer .credits a {
   transition: 0.3s;
-}
-
-@media (max-width: 768px) {
-  #footer .footer-bottom {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-  #footer .copyright, #footer .credits {
-    text-align: center;
-    float: none;
-  }
-  #footer .credits {
-    padding-top: 4px;
-  }
 }
